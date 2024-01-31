@@ -1,0 +1,74 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=B612+Mono&family=Righteous&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
+
+  /* caixa */
+.header {
+    width: 100%; 
+    height: 100px; 
+    left: 0px; 
+    top: 0px;
+    position: fixed; 
+    background: #2E0934; 
+    border-radius: 0px 0px 40px 40px;  
+    z-index: 10;
+}
+
+.subheader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flag_logo {
+    background-color:beige;
+    border-radius: 0px 0px 20px 20px;
+    align-items: center;
+    justify-content: center;
+    max-width: 60pt;
+    width: none;
+    height: 60pt;
+    display: flex;
+    margin-left: 10pt;
+   
+
+}
+
+/*title*/
+.h1header{
+    position: relative;
+    text-align: center; 
+    color: #ffffff; 
+    font-size: max(25pt, 4vw);
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: 'Bakbak One', sans-serif;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    span{
+        color: #AF00FF;
+    }
+
+
+}
+
+/* subtitle */
+.h2header{
+    position: relative;
+    text-align: center; 
+    color: #FFFCE2; 
+    font-size: 10px;
+    margin-top: 0px;
+    font-family: 'B612 Mono', monospace;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    font-size: max(5.5pt, 1vw);
+}
+
+.flags {
+    margin-left: 10pt;
+}
+
+
+
+
