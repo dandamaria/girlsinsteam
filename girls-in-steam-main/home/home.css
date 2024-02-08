@@ -1,12 +1,10 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=B612+Mono&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono&family=Righteous&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
 
 
-  /* caixa */
-.header {
+  header {
     width: 100%; 
-    height: 100px; 
+    height: 70pt; 
     left: 0px; 
     top: 0px;
     position: fixed; 
@@ -15,32 +13,40 @@
     z-index: 10;
 }
 
-.subheader {
+.headerpai{
     display: flex;
     justify-content: space-between;
+    padding-left: 10pt;
+    padding-right: 10pt;
 }
 
-.flag_logo {
-    background-color:beige;
-    border-radius: 0px 0px 20px 20px;
+.logo {
+    background-color: beige;
+    width: 50pt;
+    height: 60pt;
     align-items: center;
     justify-content: center;
-    max-width: 60pt;
-    width: none;
-    height: 60pt;
     display: flex;
-    margin-left: 10pt;
-   
-
+    border-radius: 0px 0px 20px 20px;
 }
 
-/*title*/
-.h1header{
+.picturelogo{
+    width: 90%;
+}
+
+.title{
+    margin: none;
+    padding: none;
+    align-items: center;
+    justify-content: center;
+
+}
+.titlee{
     position: relative;
     text-align: center; 
     color: #ffffff; 
     font-size: max(25pt, 4vw);
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 0px;
     font-family: 'Bakbak One', sans-serif;
     letter-spacing: 2px;
@@ -49,11 +55,9 @@
         color: #AF00FF;
     }
 
-
 }
 
-/* subtitle */
-.h2header{
+.subtitle{
     position: relative;
     text-align: center; 
     color: #FFFCE2; 
@@ -66,9 +70,129 @@
 }
 
 .flags {
-    margin-left: 10pt;
+    width: 40px;
+    height: 60px;
+    display: flex;
+    padding-top: 8pt;
+}
+.bandeiras{
+    width: 90%;
 }
 
+body {
+    padding-top: 70pt;
+}
+
+/*carrosel*/
+
+.splide__slide img {
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+
+  .blocks{
+    display: flex;
+    justify-content: center;
+  }
+
+  .squares{
+    border-radius: 20px;
+    width: 200pt;
+    height: 200pt;
+    margin: 50pt;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30pt;
+  }
+
+  .square{
+    text-decoration: none;
+  }
+
+  .textsquare{
+    font-family: 'Bakbak One', sans-serif;
+    justify-content: center;
+    display: flex;
+    color: black;
+    margin: 0px;
+  }
+
+  .subtextsquare{
+    font-family: 'B612 Mono';
+    justify-content: center;
+    display: flex;
+    color: black;
+    font-size: 10pt;
+    align-items: center;
+    text-align: center;
+  }
+
+  .imagensquare{
+    width: 190pt;
+    border-radius: 20px;
+    margin-bottom: 10pt;
+    
+  }
+
+  footer{
+    background-color: #2E0934;
+    width: 100%; 
+    height: 50pt;
+  }
 
 
+  /*celular*/
 
+
+@media (max-width: 600px) {
+    header {
+        height: 50pt;
+        border-radius: 0px 0px 30px 30px;  
+    } 
+
+    .logo {
+        width: 40pt;
+        height: 40pt;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .flags{
+        padding-top: 10px;
+    }
+    .bandeiras{
+        width: 70%;
+        height: 70%;
+    }
+
+    .blocks{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+      }
+    
+      .squares{
+        border-radius: 20px;
+        width: 180pt;
+        height: 180pt;
+      }
+
+      .imagensquare{
+        width: 180pt;
+        height: 180pt;
+      }
+
+      .textsquare{
+        font-family: 'Bakbak One', sans-serif;
+        justify-content: center;
+        display: flex;
+        color: black;
+      }
+
+}
