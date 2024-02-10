@@ -2,15 +2,21 @@
   @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
 
 
+  body{
+    margin: 0%;
+    margin-top: 9%;
+  }
+
   header {
     width: 100%; 
     height: 70pt; 
     left: 0px; 
     top: 0px;
     position: fixed; 
-    background: #2E0934; 
+    background: #221524; 
     border-radius: 0px 0px 40px 40px;  
     z-index: 10;
+    box-shadow: 0px 1px 50px rgb(18, 3, 99);
 }
 
 .headerpai{
@@ -21,7 +27,7 @@
 }
 
 .logo {
-    background-color: beige;
+    background-color: rgb(253, 14, 94);
     width: 50pt;
     height: 60pt;
     align-items: center;
@@ -45,14 +51,14 @@
     position: relative;
     text-align: center; 
     color: #ffffff; 
-    font-size: max(25pt, 4vw);
+    font-size: max(15pt, 3vw);
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: 'Bakbak One', sans-serif;
     letter-spacing: 2px;
     white-space: nowrap;
     span{
-        color: #AF00FF;
+        color: #fc0054;
     }
 
 }
@@ -60,7 +66,7 @@
 .subtitle{
     position: relative;
     text-align: center; 
-    color: #FFFCE2; 
+    color: #ffffff; 
     font-size: 10px;
     margin-top: 0px;
     font-family: 'B612 Mono', monospace;
@@ -79,10 +85,6 @@
     width: 90%;
 }
 
-body {
-    padding-top: 70pt;
-}
-
 /*carrosel*/
 
 .splide__slide img {
@@ -92,14 +94,20 @@ body {
     display: flex;
     align-items: center;
     margin: auto;
+    margin-top: 2%;
+    border-radius: 30px;
+    margin-bottom: 50px;
   }
+
+/*fim do carrosel*/
 
   .blocks{
     display: flex;
     justify-content: center;
+    
   }
 
-  .squares{
+  .squares1{
     border-radius: 20px;
     width: 200pt;
     height: 200pt;
@@ -109,6 +117,29 @@ body {
     display: flex;
     flex-direction: column;
     padding-top: 30pt;
+    
+  }
+  .squares2{
+    border-radius: 20px;
+    width: 200pt;
+    height: 200pt;
+    margin: 50pt;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 16pt;
+  }
+  .squares3{
+    border-radius: 20px;
+    width: 200pt;
+    height: 200pt;
+    margin: 50pt;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 23pt;
   }
 
   .square{
@@ -121,6 +152,7 @@ body {
     display: flex;
     color: black;
     margin: 0px;
+    margin-top: 10px;
   }
 
   .subtextsquare{
@@ -137,13 +169,18 @@ body {
     width: 190pt;
     border-radius: 20px;
     margin-bottom: 10pt;
+    box-shadow: 10px 10px 0px #fc0054;
     
   }
 
   footer{
-    background-color: #2E0934;
-    width: 100%; 
-    height: 50pt;
+    margin-top: 50px;
+    background-color: #221524;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px;
+    height: 90pt;
   }
 
 
