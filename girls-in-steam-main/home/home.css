@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=B612+Mono&family=Righteous&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
 
 
   body{
@@ -58,7 +58,7 @@
     letter-spacing: 2px;
     white-space: nowrap;
     span{
-        color: #fc0054;
+        color: #a545ff;
     }
 
 }
@@ -169,20 +169,52 @@
     width: 190pt;
     border-radius: 20px;
     margin-bottom: 10pt;
-    box-shadow: 10px 10px 0px #fc0054;
+    box-shadow: 10px 10px 0px #221524;
     
   }
 
+  /* FOOTER */
+
   footer{
-    margin-top: 50px;
-    background-color: #221524;
+    margin-top: 40pt;
+    background-color:#221524;
     left: 0px;
     bottom: 0px;
     width: 100%;
     padding: 10px;
-    height: 90pt;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
+  .logocolo{
+    padding: 5px;
+  }
+
+  .text_footer{
+    color: #a545ff;
+    font-size: 10pt;
+    font-family: 'B612 Mono';
+    word-spacing: -3pt;
+  }
+
+  .iconessociais{
+    display: flex;
+    align-items: center;
+    width: 3cm;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+
+
+  .autorais{
+    text-decoration: none;
+    font-size: 10pt;
+  }
+
+
+
+  /* FIM DO FOOTER */
 
   /*celular*/
 
