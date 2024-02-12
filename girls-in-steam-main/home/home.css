@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=B612+Mono&family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
 
+:root{
+  --roxo_escuro: #221524;
+}
+
+  p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
 
   body{
     margin: 0%;
@@ -27,9 +37,9 @@
 }
 
 .logo {
-    background-color: rgb(253, 14, 94);
+    background-color: rgb(255, 254, 222);
     width: 50pt;
-    height: 60pt;
+    height: 50pt;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -80,9 +90,26 @@
     height: 60px;
     display: flex;
     padding-top: 8pt;
+    padding-right: 8pt;
 }
 .bandeiras{
     width: 90%;
+}
+
+hr{ /*LINHA*/
+  color: #221524;
+  background-color: #221524;
+  width: 70%;
+  height: 1.5px;
+  margin-top: 30px;
+}
+
+.abaixodalinha{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Bakbak One', sans-serif;
+  color: var(--roxo_escuro);
 }
 
 /*carrosel*/
@@ -169,7 +196,7 @@
     width: 190pt;
     border-radius: 20px;
     margin-bottom: 10pt;
-    box-shadow: 10px 10px 0px #221524;
+    box-shadow: 10px 10px 0px var(--roxo_escuro);
     
   }
 
@@ -177,7 +204,7 @@
 
   footer{
     margin-top: 40pt;
-    background-color:#221524;
+    background-color: var(--roxo_escuro);
     left: 0px;
     bottom: 0px;
     width: 100%;
